@@ -20,8 +20,8 @@ void main ( void )
 while(1)
   {
   lcdClear();
-	lcdSetText("SEC",6,0);
-	lcdSetText("MIN",2,0);
+  lcdSetText("SEC",6,0);
+  lcdSetText("MIN",2,0);
   lcdSetInt(sec,6,1);
   lcdSetInt(min,3,1);
   LPM3;
