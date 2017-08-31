@@ -40,12 +40,12 @@ __interrupt void Timer_A (void)
 	    {
 		    sec=0;
 		    min+=1;
-		  }
+	    }
 	else
 	  {
-			sec=0;
-			min=0;
-		}
+		   sec=0;
+		   min=0;
+	  }
 	LPM3_EXIT;
 }
 
